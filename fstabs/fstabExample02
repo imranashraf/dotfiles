@@ -1,0 +1,28 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+
+/dev/nvme0n1p1          /boot/efi       vfat    umask=0077          0       1
+/dev/nvme0n1p7          /               ext4    errors=remount-ro   0       1
+/dev/nvme0n1p5          none            swap    sw                  0       0
+/dev/nvme0n1p8          /data           ext4    defaults            1       2
+
+# windows drives
+/dev/nvme0n1p3          /win10/c         ntfs    defaults           0       0
+#/dev/nvme0n1p4          /win10/d         ntfs    defaults           0       0
+
+# Note: nvme0n1p2, nvme0n1p5 and nvme0n1p6 are reserved recovery/imaging etc.
+
+# initial setup created by ubuntu
+# /boot/efi was on /dev/nvme0n1p1 during installation
+#UUID=4E6C-2444  /boot/efi       vfat    umask=0077      0       1
+# / was on /dev/nvme0n1p7 during installation
+#UUID=f10fe6fa-7888-4108-86df-bbf3cc45d1b1 /               ext4    errors=remount-ro 0       1
+# swap was on /dev/nvme0n1p8 during installation
+#UUID=7c67b3f4-966c-4e22-9db1-d93049f69b53 none            swap    sw              0       0
+
+

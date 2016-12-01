@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/opt/Zotero_linux-x86_64/zotero
+Name=Zotero
+Comment=Launches Zotero
+Icon=/opt/Zotero_linux-x86_64/icons/updater.png
+Name[en_US]=zotero

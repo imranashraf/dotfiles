@@ -1,0 +1,12 @@
+# Gateway Machine
+Host bastion
+    Hostname linux-bastion.tudelft.nl
+    User NETID
+    # write your netid above
+
+# Target Machine
+Host mypc
+    ProxyCommand ssh -q bastion nc CE-MACHINE.ws.tudelft.net 22
+    User CE-UNAME
+    # Instead of CE-MACHINE.ws.tudelft.net write ur CE Machine name
+    # Instead of CE-UNAME, use your own CE username

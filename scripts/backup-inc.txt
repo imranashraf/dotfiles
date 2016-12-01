@@ -1,0 +1,15 @@
+/data/bbToolChain/bbToolChain.zip
+/data/benchmarkApps/
+/data/codes/
+/data/data/
+/data/eclipseWorkspaces/
+/data/entertainment/
+/data/imran/
+/data/islamic/
+/data/libSrcs/
+/data/overoStuff/
+/data/roughWork/
+/data/softwares/
+/data/VBOX/
+/data/VMWARE/
+/home/iashraf/

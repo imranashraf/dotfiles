@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=Brightness Scale
+Icon=/home/iashraf/dotfiles/scripts/brightness.png
+#Icon=application-default-icon
+Exec=python /home/iashraf/dotfiles/scripts/brightness.py
+StartupNotify=false
+StartupWMClass=Brightness.py
+OnlyShowIn=Unity;
+X-UnityGenerated=true

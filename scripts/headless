@@ -1,0 +1,6 @@
+#!/bin/bash
+
+[ $# -lt 1 ] && echo "Usage: $0 vm_name" && return
+
+VBoxHeadless -startvm $1 &
+

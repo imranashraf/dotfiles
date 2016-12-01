@@ -1,0 +1,22 @@
+[user]
+	name = Imran Ashraf
+	email = iimran.aashraf@gmail.com
+
+[credential]
+    helper = cache
+[core]
+    excludesfile = /home/iashraf/.gitignore_global
+[color]
+    ui = auto
+[alias]
+    br = branch
+    co = checkout
+    st = status
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	ci = commit
+[format]
+    pretty = oneline
+[url "https://github.com/"]
+	insteadOf = git://github.com/
+[push]
+	default = simple

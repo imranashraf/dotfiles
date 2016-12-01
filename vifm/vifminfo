@@ -1,0 +1,243 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Bookmarks:
+'H
+	/home/iashraf/
+	../
+1476994853
+'b
+	/home/iashraf/bin/
+	../
+1476994853
+'d
+	/data
+	../
+1476999988
+'h
+	/home/iashraf/
+	../
+1476994853
+'o
+	/home/iashraf
+	Music/
+1476997987
+
+# TUI:
+al
+q0
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/iashraf/Desktop
+	testing/
+5
+d/home/iashraf
+	Pictures/
+5
+d/home
+	iashraf/
+1
+d/home/iashraf
+	Pictures/
+5
+d/home
+	iashraf/
+1
+d/home/iashraf
+	Desktop/
+1
+d/home/iashraf/Desktop
+	testing/
+5
+d/home/iashraf/Desktop/testing
+	../
+0
+d/home/iashraf/Desktop
+	testing/
+5
+d/home/iashraf/Desktop/testing
+	folder/
+3
+d/home/iashraf/Desktop/testing/folder
+	../
+0
+d/home/iashraf/Desktop/testing
+	folder/
+1
+d/home/iashraf/Desktop/testing/folder
+	../
+0
+d/home/iashraf/Desktop/testing
+	makefile
+2
+d/home/iashraf/Desktop
+	testing/
+5
+d/home/iashraf/Desktop/testing
+	makefile
+2
+d/home/iashraf/Desktop
+	testing/
+5
+d/home/iashraf/Desktop/testing
+	folder/
+3
+d/home/iashraf/Desktop/testing/folder
+	../
+0
+d/home/iashraf/Desktop/testing
+	makefile
+3
+d/home/iashraf/Desktop
+	RAMsHardDisks/
+1
+d/home/iashraf
+	Desktop/
+1
+d/home/iashraf/Desktop
+	testing/
+5
+d/home/iashraf/Desktop/testing
+	makefile
+3
+d/home/iashraf/Desktop
+	vectorization/
+6
+d/home/iashraf
+	Desktop/
+1
+d/home
+	iashraf/
+1
+d/
+	data/
+3
+d/data
+	repositories/
+7
+d/data/repositories
+	code-examples/
+2
+d/data/repositories/code-examples
+	pathTesting/
+20
+d/data/repositories
+	code-examples/
+2
+d/data/repositories/code-examples
+	pythonTest/
+22
+d/data/repositories/code-examples/pythonTest
+	tkinter/
+4
+d/data/repositories/code-examples/pythonTest/tkinter
+	scaleBrightness/
+3
+d/data/repositories/code-examples/pythonTest/tkinter/scaleBrightness
+	test.py
+1
+d
+
+# Right window history (oldest to newest):
+D/home/iashraf/Desktop
+	../
+0
+D/home/iashraf
+	Music/
+4
+D/home
+	iashraf/
+1
+D/home/iashraf
+	Pictures/
+5
+D/home
+	iashraf/
+1
+D/home/iashraf
+	Pictures/
+5
+D/home/iashraf/Pictures
+	../
+0
+D/home/iashraf
+	Pictures/
+5
+D/home/iashraf/Pictures
+	../
+0
+D/home/iashraf
+	Templates/
+8
+D/home/iashraf/Templates
+	../
+0
+D/home/iashraf
+	Music/
+4
+D/home/iashraf/Music
+	../
+0
+D/home/iashraf
+	Downloads/
+3
+D/home/iashraf/Downloads
+	../
+0
+D/home/iashraf
+	Desktop/
+1
+D/home/iashraf/Desktop
+	memristor/
+3
+D
+
+# Command line history (oldest to newest):
+:ls
+:mkdir testing
+:mkdir folder
+:marks
+:colorscheme desert
+:colorscheme mc-like.vifm
+:mkdir ď
+:q
+:colorscheme desert.vifm
+:colorscheme solarized-dark.vifm
+:colorscheme astrell.vifm
+:colorscheme darkdesert.vifm
+:kate.sh
+
+# Search history (oldest to newest):
+/dot
+/rep
+/pyt
+
+# Prompt history (oldest to newest):
+ps
+pmakefile
+ptest2.asm
+pscale_brightness
+pscaleBrightness
+
+# Local filter history (oldest to newest):
+
+# Registers:
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+
+# State:
+f
+i1
+[.1
+[F
+F
+I1
+].1
+]F
+s0
