@@ -107,9 +107,11 @@ set statusline="  %t%= %A %10u:%-7g %15s %20d  "
 " ------------------------------------------------------------------------------
 
 " :mark mark /full/directory/path [filename]
-
-mark b ~/bin/
+" m [a-z][A-Z][0-9] to set bookmark
+" ' letter to goto bookmark. e.g. 'd to go to /data
 mark h ~/
+mark d /data/
+mark r /data/repositories/
 
 " ------------------------------------------------------------------------------
 
@@ -411,13 +413,23 @@ nnoremap <f8> :delete<cr>
 " Various customization examples
 
 " Use ag (the silver searcher) instead of grep
-"
 " set grepprg=ag\ --line-numbers\ %i\ %a\ %s
 
 " Add additional place to look for executables
-"
 " let $PATH=$HOME.'/bin/fuse:'.$PATH
 
 " Block particular shortcut
-"
 " nnoremap <left> <nop>
+
+" important key bindings to copy file/directory paths to clipboard
+" yank current directory path into the clipboard
+nnoremap yd :!echo -n %d | xclip -sel clip %i<cr>
+
+" yank current file path into the clipboard
+nnoremap yf :!echo -n %c:p | xclip -sel clip %i<cr>
+
+" yank current filename without path into the clipboard
+nnoremap yn :!echo -n %c | xclip -sel clip %i<cr>
+
+" yank root of current file's name into the clipboard
+nnoremap yr :!echo -n %c:r | xclip -sel clip %i<cr>
