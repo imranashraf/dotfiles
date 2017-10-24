@@ -2,7 +2,7 @@
 
 Settings can be applied to a new system by the following commmands:
 
-    git clone git@bitbucket.org:imranashraf/dotfiles.git
+    git clone https://github.com/imranashraf/dotfiles.git
 
     cd dotfiles
 
