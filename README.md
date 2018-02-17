@@ -1,4 +1,9 @@
-# Repository to track/setup settings (dot files etc) in a system
+# Repository to setup settings (dot files etc) in a linux system
+
+## Pre-requiste
+sudo apt install vim-gtk
+
+## Setup
 
 Settings can be applied to a new system by the following commmands:
 
@@ -10,7 +15,7 @@ Settings can be applied to a new system by the following commmands:
 
 and its done.
 
-# Subtree:
+## Subtree:
 
 Repository for airplane buffer display (in vim) has been added as a subtree with the following command:
 
