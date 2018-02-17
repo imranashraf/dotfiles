@@ -2,6 +2,7 @@
 
 ## Pre-requiste
 sudo apt install vim-gtk
+sudo apt install xclip
 
 ## Setup
 
