@@ -66,15 +66,13 @@ alias myshell='ps -p $$'
 
 alias listusers='cat /etc/passwd |grep /bin/bash |grep [5-9][0-9][0-9] |cut -d: -f1'
 
+# ce hpc servers
 alias hpc1='ssh -X iashraf@ce-hpc01.ewi.tudelft.nl'
 alias hpc2='ssh -X iashraf@ce-hpc02.ewi.tudelft.nl'
 alias hpc3='ssh -X iashraf@ce-hpc03.et.tudelft.nl'
 alias dev1='ssh -X iashraf@ce-dev01.et.tudelft.nl'
 
+# aliases for headless start of virtual machines
 # alias vmheadlessrose='VBoxHeadless --startvm RoseVM'
 
-#alias for thefuck to correct last wrongly typed command
-eval $(thefuck --alias)
-
 alias tmux='tmux -2'
-
